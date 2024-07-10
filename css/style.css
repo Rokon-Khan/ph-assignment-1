@@ -218,3 +218,50 @@ main {
 .next-target-card-container a {
   color: #0d1321;
 }
+
+/* support section styles */
+
+.support {
+  background-image: linear-gradient(rgba(13, 19, 33, 0.2), rgba(13, 19, 33, 1)),
+    url(../assets/handshake.jpg);
+  border-radius: 16px;
+  background-position: center center;
+  margin-bottom: 80px;
+}
+
+.support-content {
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+.support-container {
+  padding: 64px 48px;
+}
+
+.support-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.support-description {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+input[type="text"] {
+  padding: 19px 20px;
+  width: 548px;
+  border-radius: 8px;
+  border: none;
+}
+
+input[type="submit"] {
+  padding: 17px 20px;
+  border-radius: 8px;
+  border: none;
+  color: #0d1321;
+  font-weight: 600;
+  font-size: 20px;
+}
