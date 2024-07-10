@@ -147,3 +147,46 @@ main {
   margin: 0 auto;
   border-radius: 16px;
 }
+
+/*My  Current Target Styles  */
+.my-current-target {
+  margin-top: 150px;
+}
+
+.current-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #0d1321;
+}
+
+.current-description,
+.card-description {
+  font-size: 16px;
+  color: #0d1321;
+  font-weight: 400;
+}
+
+.current-content {
+  max-width: 852px;
+  margin: 0px auto 48px;
+}
+
+.current-card-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.current-card {
+  padding: 40px;
+}
+
+.current-card a {
+  color: #0d1321;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #0d1321;
+}
