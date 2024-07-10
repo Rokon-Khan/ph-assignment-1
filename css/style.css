@@ -43,6 +43,7 @@ a:link {
 .btn-secondary {
   background-color: #ffffff;
   font-weight: 600;
+  font-size: 20px;
   padding: 12px 20px;
   color: #0d1321;
   border: 1px solid #0d1321;
@@ -84,8 +85,9 @@ main {
 
 /* Style Development Section */
 
-.development {
+.development-section {
   background-color: rgb(13, 19, 33, 0.02);
+  border-radius: 16px;
   margin-top: 74px;
 }
 
@@ -109,6 +111,8 @@ main {
 
 .dev-content {
   background-color: #ffffff;
+  padding: 58px 48px;
+  border-radius: 16px;
 }
 
 .development-title {
@@ -140,6 +144,12 @@ main {
   font-size: 16px;
   color: #0d1321;
   font-weight: 400;
+}
+
+.video-container {
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 1px 1px 5px rgba(13, 19, 33, 0.2);
 }
 
 .inspiration-video iframe {
@@ -179,6 +189,18 @@ main {
 
 .current-card {
   padding: 40px;
+  border-radius: 16px;
+}
+
+.current-card-bg-1 {
+  background-color: rgba(255, 75, 30, 0.05);
+}
+.current-card-bg-2 {
+  background-color: rgba(0, 77, 232, 0.05);
+}
+
+.current-card-bg-3 {
+  background-color: rgba(255, 221, 0, 0.05);
 }
 
 .current-card a {
@@ -207,6 +229,9 @@ main {
   align-items: center;
   gap: 24px;
   padding: 40px;
+  margin-top: 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
 }
 
 .next-target-card-title {
@@ -227,6 +252,7 @@ main {
   border-radius: 16px;
   background-position: center center;
   margin-bottom: 80px;
+  margin-top: 49px;
 }
 
 .support-content {
@@ -271,7 +297,9 @@ input[type="submit"] {
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 32px 150px;
+  background-color: rgba(13, 19, 33, 0.02);
 }
 
 .footer-description {
