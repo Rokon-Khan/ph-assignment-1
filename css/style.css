@@ -8,7 +8,8 @@
 
 /* Shared Style */
 
-.text-primary {
+.text-primary,
+.description-title {
   color: #0d1321;
 }
 
@@ -35,6 +36,29 @@
   cursor: pointer;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  font-weight: 600;
+  padding: 12px 20px;
+  color: #0d1321;
+  border: 1px solid #0d1321;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0d1321;
+}
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /* Header Style */
 
 .header {
@@ -56,4 +80,45 @@
 }
 .header-description {
   margin-bottom: 32px;
+}
+
+/* Style Development Section */
+
+.development {
+  background-color: rgb(13, 19, 33, 0.02);
+  margin-top: 74px;
+}
+
+.container {
+  padding: 80px 97px;
+}
+
+.dev-container-1 {
+  max-width: 852px;
+  margin: 0 auto;
+}
+
+.container-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 98px;
+  max-width: 850px;
+  margin: 24px auto;
+}
+
+.dev-content {
+  background-color: #ffffff;
+}
+
+.development-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #0d1321;
+}
+
+.dev-content-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(13, 19, 33, 0.7);
 }
