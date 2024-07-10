@@ -8,6 +8,10 @@
 
 /* Shared Style */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .text-primary,
 .description-title {
   color: #0d1321;
@@ -36,7 +40,7 @@
   cursor: pointer;
 }
 
-a:link {
+.header a:link {
   text-decoration: none;
 }
 
