@@ -122,3 +122,28 @@ main {
   font-weight: bold;
   color: rgba(13, 19, 33, 0.7);
 }
+
+/* My Inpiration Section Styles */
+
+.inspiration-content {
+  max-width: 852px;
+  margin: 0px auto 48px;
+}
+
+.inspiration-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0d1321;
+}
+
+.inspiration-description {
+  font-size: 16px;
+  color: #0d1321;
+  font-weight: 400;
+}
+
+.inspiration-video iframe {
+  display: block;
+  margin: 0 auto;
+  border-radius: 16px;
+}
